@@ -20,7 +20,7 @@ public class OtoKadai06  {
 		oto2.powerOn();
 		while(true) {
 			oto2.lightRed();
-			oto2.sleep();
+			
 			oto1.lightGreen();
 			oto1.sleep();
 			oto1.sleep();
@@ -32,14 +32,15 @@ public class OtoKadai06  {
 			oto1.sleep();
 			oto1.sleep();
 			oto1.sleep();
-			oto1.lightOff();
+			
 			oto1.lightYellow();
 			oto1.sleep();
 			oto1.sleep();
 			oto1.sleep();
-			oto1.lightOff();
+			
 			oto1.lightRed();
 			oto1.sleep();
+			
 			
 			oto2.lightGreen();
 			oto2.sleep();
@@ -52,13 +53,14 @@ public class OtoKadai06  {
 			oto2.sleep();
 			oto2.sleep();
 			oto2.sleep();
-			oto2.lightOff();
+			
 			oto2.lightYellow();
 			oto2.sleep();
 			oto2.sleep();
 			oto2.sleep();
-			oto2.lightOff();
 			
+			oto2.lightRed();
+			oto2.sleep();
 			
 		}
 
