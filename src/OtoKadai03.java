@@ -8,20 +8,19 @@ import jp.jc21.t.yoshizawa.otopika.Otopika;
 /**
  * @author AB2B01
  */
-public class OtoKadai01  {
+public class OtoKadai03  {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Otopika oto = new Otopika();
-		oto.powerOn();
+		Otopika oto1 = new Otopika();
+		oto1.powerOn();
 		while(true) {
-			oto.lightAll();
-			oto.sleep();
-			oto.lightOff();
-			oto.sleep();
-			
+			oto1.lightAll();
+			oto1.sleep();
+			oto1.lightOff();
+			oto1.sleep();
 		}
 
 	}
